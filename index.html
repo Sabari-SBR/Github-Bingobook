@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/52436e6ee8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <div class="logo">
+                <div class="head">B</div>
+                <div class="line">ingobook</div>
+            </div>
+            <ul>
+                <li><a href="#"><img src="images/notification.png" ></a></li>
+                <li><a href="#"><img src="images/inbox.png" ></a></li>
+                <li><a href="#"><img src="images/video.png" ></a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="profile online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" >
+            </div>
+            
+        </div> 
+<!--------- Settings-Menu --------->
+        <div class="settings-menu">
+            <div id="dark-light-btn">
+                <span></span>
+            </div>
+
+               <div class="settings-menu-inner">
+                <div class="user-profile-container">
+                    <div class="user-profile">
+                         <img src="images/profile-pic.png">  
+                         <div class="user-name">
+                               <p>Jackson Parker</p>
+                                <a href="#">See your profile</a>
+                         </div>
+                    </div>               
+               </div>
+              <hr>
+              <div class="user-profile-container">
+                   <div class="user-profile">
+                        <img src="images/feedback.png">  
+                        <div class="user-name">
+                              <p>Give Feedback</p>
+                              <a href="#">Help us to improve the new design</a>
+                        </div>
+                   </div>          
+               </div>
+             <hr>
+
+             <div class="settings-menu-links">
+                   <div class="settings-icon"> 
+                       <img src="images/setting.png">
+                        <p>Settings & Privacy</p> 
+                   </div>
+                   <img src="images/arrow.png" class="settings-menu-arrow">  
+             </div>
+
+             <div class="settings-menu-links">
+               <div class="settings-icon">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                </div>
+                <img src="images/arrow.png" class="settings-menu-arrow">  
+            </div>
+
+            <div class="settings-menu-links">
+               <div class="settings-icon"> 
+                   <img src="images/display.png">
+                    <p>Display & Accessibility</p> 
+               </div>
+               <img src="images/arrow.png" class="settings-menu-arrow">  
+            </div>
+
+         <div class="settings-menu-links">
+           <div class="settings-icon"> 
+               <img src="images/logout.png">
+                <p>Logout</p> 
+           </div>
+           <img src="images/arrow.png" class="settings-menu-arrow">  
+        </div>
+
+               </div>
+
+        </div>
+
+    </nav>  
+    <!-----------Main content ----------->
+    <div class="container">
+        <!-------------left-sidebar-------------->
+        <div class="left-sidebar">
+        
+            <div class="links">
+                <a href="#"><img src="images/news.png"> Latest News</a>
+                <a href="#"><img src="images/friends.png"> Friends</a>
+                <a href="#"><img src="images/group.png"> Group</a>
+                <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+                <a href="#"><img src="images/watch.png"> Watch</a>
+                <a href="#"> See More</a>
+            </div>
+            <div class="shortcuts">
+                <p>Your shortcuts</p>
+                 <a href="https://www.myntra.com/"><img src="images/shortcut-1.png" > Web Developers</a>
+                 <a href="https://www.myntra.com/"><img src="images/shortcut-2.png" > Web Design Course</a>
+                 <a href="https://www.myntra.com/"><img src="images/shortcut-3.png" > Full Stack Developement</a>
+                 <a href="https://www.myntra.com/"><img src="images/shortcut-4.png" > Web Experts</a>              
+             </div>
+        </div>
+
+        <!-------------main-bar------------------>
+        <div class="main-bar">
+
+                <div class="story-gallery">
+                    <div class="story my-story">
+                        <img src="images/upload.png">
+                        <p>Post story</p>
+                    </div>
+                    <div class="story story-2">
+                        <img src="images/member-1.png">
+                        <p>Marina</p>
+                    </div>
+                    <div class="story story-3">
+                        <img src="images/member-2.png">
+                        <p>Johnson</p>
+                    </div>
+                    <div class="story story-4">
+                        <img src="images/member-3.png">
+                        <p>Angelina</p>
+                    </div>
+                     <div class="story story-5">
+                         <img src="images/member-4.png" alt="">
+                         <p>Tony</p>
+                     </div>
+                </div>
+ 
+    <div class="write-container">  
+        <div class="user-profile-container">
+             <div class="user-profile">
+                  <img src="images/profile-pic.png">  
+                  <div class="user-name">
+                        <p>Jackson Parker</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                  </div>
+             </div>
+            
+        </div>
+
+        <div class="write-input-container">
+              <textarea rows="3" placeholder="What's on your mind ?"></textarea>    
+        
+              <div class="post-links">
+                <a href="#"><img src="images/live-video.png"> Live Video</a>   
+                <a href="#"><img src="images/photo.png"> Photos/Videos</a>   
+                <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>        
+            </div>
+        </div>     
+    </div>
+
+    <div class="post-container">
+        <div class="user-profile-container">
+            <div class="user-profile">
+                 <img src="images/profile-pic.png">  
+                 <div class="user-name">
+                       <p>Jackson Parker</p>
+                       <small>12 June 2023,  12.07 PM</small>
+                 </div>
+            </div>
+            <div class="user-other-detail">
+                 <div></div>
+                 <div></div>
+                 <div></div>
+            </div>   
+       </div>
+
+       <div class="post-display">
+            <p>Hello guys, This is my new account <span>@Jackson Parker</span> follow my account and like my posts. 
+                <a href="#">#Instagram</a> <a href="#">#YouTubeChannel</a>
+            </p>
+
+            <img src="images/feed-image-1.png">
+
+            <div class="post-active-links">
+                <div class="post-active-icons">
+                        <div><img src="images/like-blue.png" > 1.2k</div>
+                        <div><img src="images/comments.png" > 934</div>
+                        <div><img src="images/share.png" > 468</div>
+                </div>
+                <div class="post-user-profile">
+                        <img src="images/profile-pic.png">
+                        <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <div class="post-container post-container-2">
+        <div class="user-profile-container">
+            <div class="user-profile">
+                 <img src="images/member-1.png">  
+                 <div class="user-name">
+                       <p>Marina Markson</p>
+                       <small>23 May 2023, 09.43 AM</small>
+                 </div>
+            </div>
+            <div class="user-other-detail">
+                 <div></div>
+                 <div></div>
+                 <div></div>
+            </div>   
+       </div>
+
+       <div class="post-display">
+            <p>Hi guys like and share. 
+                <a href="#">#Instagram</a> <a href="#">#YouTubeChannel</a>
+            </p>
+
+            <img src="images/feed-image-2.png">
+
+            <div class="post-active-links">
+                <div class="post-active-icons">
+                        <div><img src="images/like.png" > 763</div>
+                        <div><img src="images/comments.png" > 121</div>
+                        <div><img src="images/share.png" > 278</div>
+                </div>
+                <div class="post-user-profile">
+                        <img src="images/member-1.png">
+                        <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+       </div>
+    </div>
+
+
+    <div class="post-container post-container-3">
+        <div class="user-profile-container">
+            <div class="user-profile">
+                 <img src="images/member-2.png">  
+                 <div class="user-name">
+                       <p>Johnson William</p>
+                       <small>02 June 2023,  16.09 PM</small>
+                 </div>
+            </div>
+            <div class="user-other-detail">
+                 <div></div>
+                 <div></div>
+                 <div></div>
+            </div>   
+       </div>
+
+       <div class="post-display">
+            <p>Hello guys, <span>@Jackson Parker</span> follow my account and like my posts. 
+                <a href="#">#Instagram</a> <a href="#">#YouTubeChannel</a>
+            </p>
+
+            <img src="images/feed-image-3.png">
+
+            <div class="post-active-links">
+                <div class="post-active-icons">
+                        <div><img src="images/like.png" > 378</div>
+                        <div><img src="images/comments.png" > 49</div>
+                        <div><img src="images/share.png" > 26</div>
+                </div>
+                <div class="post-user-profile">
+                        <img src="images/member-2.png">
+                        <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+       </div>
+    </div>
+
+
+    <div class="post-container post-container-4">
+        <div class="user-profile-container">
+            <div class="user-profile">
+                 <img src="images/member-3.png">  
+                 <div class="user-name">
+                       <p>Angelina Andrew</p>
+                       <small>23 June 2023,  17.28 PM</small>
+                 </div>
+            </div>
+            <div class="user-other-detail">
+                 <div></div>
+                 <div></div>
+                 <div></div>
+            </div>   
+       </div>
+
+       <div class="post-display">
+            <p>Follow my account and like my posts. 
+                <a href="#">#Instagram</a> <a href="#">#YouTubeChannel</a>
+            </p>
+
+            <img src="images/feed-image-4.png">
+
+            <div class="post-active-links">
+                <div class="post-active-icons">
+                        <div><img src="images/like-blue.png" > 2.8k</div>
+                        <div><img src="images/comments.png" > 856</div>
+                        <div><img src="images/share.png" > 348</div>
+                </div>
+                <div class="post-user-profile">
+                        <img src="images/member-3.png">
+                        <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+       </div>
+    </div>
+
+
+    <div class="post-container post-container-5">
+        <div class="user-profile-container">
+            <div class="user-profile">
+                 <img src="images/member-4.png">  
+                 <div class="user-name">
+                       <p>Tony Alan</p>
+                       <small>12 June 2023, 07,43 AM</small>
+                 </div>
+            </div>
+            <div class="user-other-detail">
+                 <div></div>
+                 <div></div>
+                 <div></div>
+            </div>   
+       </div>
+
+       <div class="post-display">
+            <p>Follow my account and like my posts. 
+                <a href="#">#Instagram</a> <a href="#">#YouTubeChannel</a>
+            </p>
+
+            <img src="images/feed-image-5.png">
+
+            <div class="post-active-links">
+                <div class="post-active-icons">
+                        <div><img src="images/like-blue.png" > 1.1k</div>
+                        <div><img src="images/comments.png" > 134</div>
+                        <div><img src="images/share.png" > 268</div>
+                </div>
+                <div class="post-user-profile">
+                        <img src="images/member-4.png">
+                        <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+       </div>
+    </div>
+
+     
+    <button type="button" class="load-btn">Load more</button>
+
+
+
+
+        </div>
+
+        <!-------------right-sidebar------------->
+         <div class="right-sidebar">
+                <div class="rsb-title">
+                    <h4>Events</h4>
+                    <a href="#">See all</a>
+                </div>
+
+                <div class="event-bar">
+                    <div class="left-event">
+                        <h4>17</h4>
+                        <span>June</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Mobile Marketing</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> Green Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+                <div class="event-bar">
+                    <div class="left-event">
+                        <h4>23</h4>
+                        <span>November</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p><i class="fa-solid fa-location-dot"></i> Green Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+
+                <div class="rsb-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+                <div class="ads">
+                    <img src="images/advertisement.png" >
+                </div>
+
+                <div class="rsb-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide chat</a>
+                </div>
+                <div class="online-list member-online">
+                    <a href="#">
+                        <img src="images/member-2.png" >
+                        <p>Johnson William</p>
+                    </a>
+                </div>
+                <div class="online-list member-online">
+                    <a href="#">
+                        <img src="images/member-3.png" >
+                        <p>Angelina Andrew</p>
+                    </a>
+                </div>
+                <div class="online-list member-online">
+                    <a href="#">
+                        <img src="images/member-1.png" >
+                        <p>Marina Markson</p>
+                    </a>
+                </div>
+                <div class="online-list member-online">
+                    <a href="#">
+                        <img src="images/member-4.png" >
+                        <p>Tony Alan</p>
+                    </a>
+                </div>
+                <div class="online-list member-online">
+                    <a href="#">
+                        <img src="images/member-5.png" >
+                        <p>Mark Andrison</p>
+                    </a>
+                </div>
+                
+         </div>                                                                                                                                                                                                                                 
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright - 2023 @sam #Socialbook #YouTubeChannel</p>
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
